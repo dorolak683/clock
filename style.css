@@ -1,0 +1,36 @@
+@import url('//fonts.googleapis.com/css?family=Josefin+Sans:700');
+
+html {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	background: #FF4136;
+}
+
+.clock {
+	overflow: hidden;
+	display: inline-block;
+	vertical-align: top;
+	font: 2vw 'Josefin Sans';
+}
+
+.clock .emoji {
+	display: inline-block;
+	font-size: 6em;
+	line-height: 1.25em;
+	padding-top: 0.2em;
+}
+
+.clock .caption {
+	text-transform: uppercase;
+}
+
+[v-cloak] {
+	display: none;
+}

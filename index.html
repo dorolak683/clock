@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<template id='Clock'>
+	<div class='clock'>
+		<div class='emoji' :style='style'>{{ emoji | fromCode }}</div>
+	</div>
+</template>
+
+<main v-cloak>
+	<Clock tz='Asia/Bangkok'>Thaïlande</Clock>
+</main>
+<!-- partial -->
+  <script src='moment.min.js'></script>
+<script src='moment-timezone-with-data.min.js'></script>
+<script src='vue.min.js'></script>
+<script  src="script.js"></script>
+
+</body>
+</html>
